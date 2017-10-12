@@ -1,5 +1,6 @@
 .ipynb_checkpoints/*
+*checkpoint.ipynb
 
 .DS_Store
 
-data/*
+**tmp.nc
