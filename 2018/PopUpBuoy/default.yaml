@@ -7,7 +7,6 @@ Unit_Release_Time: '2018-8-30 10:00:00'
 sample_interval: 
   bottom: 3600
   ice:  3600
-  profile:  0.25
   sst:  10800
 
 underside_temp_cal: 
