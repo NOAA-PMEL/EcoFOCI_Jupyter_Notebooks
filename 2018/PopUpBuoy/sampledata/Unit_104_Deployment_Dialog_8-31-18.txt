@@ -1,0 +1,38 @@
+Unit Status:
+  SD Card Initialized Successfully.
+  Current RTC Time/Date: Aug 31 2018 11:50:49
+  Temp Sensor ADC Val: 8553 (approx 15.01 C)
+  SST (Sea Surface Temp) Sensor ADC Val: 9815 (approx 12.09 C)
+  Temp Ref    ADC Val: 8527 (approx 15.56 kOhms)
+  PAR  Sensor ADC Val: 5458 (approx -0.13 umol/(m2s))
+  Fluorometer ADC Val: 90 (approx ? ug/L)
+  100m Pressure Sensor Val: 16468 (approx 0.26 m)
+  Tilt Angle: 175 degrees from horizontal
+
+Deployment Schedule:
+--PHASE 1 (ON BOTTOM)--
+ -This mode starts at the scheduled Start Time.
+  Unit will start sampling [Sep 22 2018 00:00:00] and take a sample every (1h,0m,0s)
+--PHASES 2 AND 3 (WAIT FOR AND COLLECT PROFILE)--
+ -This mode starts just before the scheduled Release Time.
+  Release Expected [Mar 10 2019 15:00:00] (<--Set Burn Wire Release for this exact time/date.)
+  Unit will wake up  (2h,0m,0s) before scheduled release and wait for profile.
+  Start of profile will be triggered by a change in depth of (2 meters).
+  Profile will sample at 4 Hz for (0h,1m,30s) seconds before proceeding to phase 3. 
+  If unit does not sense the release within  (4h,0m,0s) of waking it will assume it missed the profile and proceed to phase 3.
+--PHASES 4 AND 5 (UNDER ICE AND TRANSMIT DATA)--
+ -This mode starts after profile has been collected (or missed).
+  Unit will take a sample every (1h,0m,0s) and take an image once a day.
+  Unit will search for GPS satellites for (0h,0m,20s)  after every sample.
+  If unit does successfully find a GPS satellite, it will attempt to send all collected data back in the following order:
+    1-File Summary, 2-Profile Data, 3-Under Ice Data, 4-Bottom Data, 5-Daily Images
+  If any iridium messages send successfully, it will continue sending until one message fails and make the next attempt to send in (0h,20m,0s)
+  Otherwise, if no messages send, the unit will take the next sample and attempt to send again in (1h,0m,0s)
+--PHASE 6 (SURFACE DRIFTER)--
+ -This mode starts after all data has finished sending.
+  Unit will take a sample every (3h,0m,0s) and search for a GPS fix for (0h,2m,0s) after every sample.
+  Unit will attempt to send any new data regardless of whether a GPS fix was found
+
+**Check all settings, take a screenshot of this dialog, and disconnect from USB when ready.**
+**Set Burn Wire Release for [Mar 10 2019 15:00:00]**
+ 
