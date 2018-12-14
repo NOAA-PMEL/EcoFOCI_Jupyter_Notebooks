@@ -1,0 +1,770 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"id": 0,
+"geometry": {
+"type": "Point",
+"coordinates": [-168.306333333,57.5208333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD042","StationNameID": "70M17","GMTYear": "2015","GMTMonth": "May","GMTDay": "3","GMTTime": "0:59:00"}
+}
+, {
+"type": "Feature",
+"id": 1,
+"geometry": {
+"type": "Point",
+"coordinates": [-168.609666667,57.5245]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD043","StationNameID": "70M18","GMTYear": "2015","GMTMonth": "May","GMTDay": "3","GMTTime": "2:09:00"}
+}
+, {
+"type": "Feature",
+"id": 2,
+"geometry": {
+"type": "Point",
+"coordinates": [-169.015333333,57.6548333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD044","StationNameID": "70M19/M4S","GMTYear": "2015","GMTMonth": "May","GMTDay": "3","GMTTime": "3:57:00"}
+}
+, {
+"type": "Feature",
+"id": 3,
+"geometry": {
+"type": "Point",
+"coordinates": [-168.465166667,57.7653333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD045","StationNameID": "M4E","GMTYear": "2015","GMTMonth": "May","GMTDay": "3","GMTTime": "6:11:00"}
+}
+, {
+"type": "Feature",
+"id": 4,
+"geometry": {
+"type": "Point",
+"coordinates": [-168.892,57.8311666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD046","StationNameID": "70M21/M4","GMTYear": "2015","GMTMonth": "May","GMTDay": "3","GMTTime": "9:15:00"}
+}
+, {
+"type": "Feature",
+"id": 5,
+"geometry": {
+"type": "Point",
+"coordinates": [-168.726166667,58.0661666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD047","StationNameID": "M4N","GMTYear": "2015","GMTMonth": "May","GMTDay": "3","GMTTime": "11:08:00"}
+}
+, {
+"type": "Feature",
+"id": 6,
+"geometry": {
+"type": "Point",
+"coordinates": [-169.330166667,57.928]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD048","StationNameID": "70M22/M4W","GMTYear": "2015","GMTMonth": "May","GMTDay": "3","GMTTime": "13:31:00"}
+}
+, {
+"type": "Feature",
+"id": 7,
+"geometry": {
+"type": "Point",
+"coordinates": [-169.501333333,57.9088333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD049","StationNameID": "70M23","GMTYear": "2015","GMTMonth": "May","GMTDay": "3","GMTTime": "14:32:00"}
+}
+, {
+"type": "Feature",
+"id": 8,
+"geometry": {
+"type": "Point",
+"coordinates": [-169.672666667,58.0433333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD050","StationNameID": "70M24","GMTYear": "2015","GMTMonth": "May","GMTDay": "3","GMTTime": "15:40:00"}
+}
+, {
+"type": "Feature",
+"id": 9,
+"geometry": {
+"type": "Point",
+"coordinates": [-169.943166667,58.1155]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD051","StationNameID": "70M25","GMTYear": "2015","GMTMonth": "May","GMTDay": "3","GMTTime": "17:13:00"}
+}
+, {
+"type": "Feature",
+"id": 10,
+"geometry": {
+"type": "Point",
+"coordinates": [-170.078,58.2225]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD052","StationNameID": "70M26","GMTYear": "2015","GMTMonth": "May","GMTDay": "3","GMTTime": "18:59:00"}
+}
+, {
+"type": "Feature",
+"id": 11,
+"geometry": {
+"type": "Point",
+"coordinates": [-168.205666667,55.3866666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD053","StationNameID": "DL11","GMTYear": "2015","GMTMonth": "May","GMTDay": "5","GMTTime": "17:51:00"}
+}
+, {
+"type": "Feature",
+"id": 12,
+"geometry": {
+"type": "Point",
+"coordinates": [-168.141,55.4405]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD054","StationNameID": "Alt DL11","GMTYear": "2015","GMTMonth": "May","GMTDay": "5","GMTTime": "18:57:00"}
+}
+, {
+"type": "Feature",
+"id": 13,
+"geometry": {
+"type": "Point",
+"coordinates": [-168.531166667,55.1785]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD055","StationNameID": "DL10","GMTYear": "2015","GMTMonth": "May","GMTDay": "5","GMTTime": "21:57:00"}
+}
+, {
+"type": "Feature",
+"id": 14,
+"geometry": {
+"type": "Point",
+"coordinates": [-168.893166667,54.95]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD056","StationNameID": "DL9","GMTYear": "2015","GMTMonth": "May","GMTDay": "6","GMTTime": "1:41:00"}
+}
+, {
+"type": "Feature",
+"id": 15,
+"geometry": {
+"type": "Point",
+"coordinates": [-169.331666667,54.6978333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD057","StationNameID": "DL8","GMTYear": "2015","GMTMonth": "May","GMTDay": "6","GMTTime": "5:13:00"}
+}
+, {
+"type": "Feature",
+"id": 16,
+"geometry": {
+"type": "Point",
+"coordinates": [-169.8325,54.35]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD058","StationNameID": "DL7","GMTYear": "2015","GMTMonth": "May","GMTDay": "6","GMTTime": "9:35:00"}
+}
+, {
+"type": "Feature",
+"id": 17,
+"geometry": {
+"type": "Point",
+"coordinates": [-169.558833333,54.0365]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD059","StationNameID": "DL6","GMTYear": "2015","GMTMonth": "May","GMTDay": "6","GMTTime": "13:03:00"}
+}
+, {
+"type": "Feature",
+"id": 18,
+"geometry": {
+"type": "Point",
+"coordinates": [-169.2595,53.7828333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD060","StationNameID": "DL5","GMTYear": "2015","GMTMonth": "May","GMTDay": "6","GMTTime": "16:17:00"}
+}
+, {
+"type": "Feature",
+"id": 19,
+"geometry": {
+"type": "Point",
+"coordinates": [-169.043333333,53.609]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD061","StationNameID": "DL4","GMTYear": "2015","GMTMonth": "May","GMTDay": "6","GMTTime": "19:08:00"}
+}
+, {
+"type": "Feature",
+"id": 20,
+"geometry": {
+"type": "Point",
+"coordinates": [-168.906166667,53.5168333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD062","StationNameID": "DL3","GMTYear": "2015","GMTMonth": "May","GMTDay": "6","GMTTime": "21:25:00"}
+}
+, {
+"type": "Feature",
+"id": 21,
+"geometry": {
+"type": "Point",
+"coordinates": [-168.794666667,53.4438333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD063","StationNameID": "DL2","GMTYear": "2015","GMTMonth": "May","GMTDay": "6","GMTTime": "23:27:00"}
+}
+, {
+"type": "Feature",
+"id": 22,
+"geometry": {
+"type": "Point",
+"coordinates": [-168.7265,53.3705]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD064","StationNameID": "DL1","GMTYear": "2015","GMTMonth": "May","GMTDay": "7","GMTTime": "1:08:00"}
+}
+, {
+"type": "Feature",
+"id": 23,
+"geometry": {
+"type": "Point",
+"coordinates": [-168.849166667,53.4143333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD065","StationNameID": "14BSP-6A","GMTYear": "2015","GMTMonth": "May","GMTDay": "7","GMTTime": "2:40:00"}
+}
+, {
+"type": "Feature",
+"id": 24,
+"geometry": {
+"type": "Point",
+"coordinates": [-167.064833333,54.0865]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD066","StationNameID": "UT4","GMTYear": "2015","GMTMonth": "May","GMTDay": "7","GMTTime": "12:46:00"}
+}
+, {
+"type": "Feature",
+"id": 25,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.975833333,53.9776666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD067","StationNameID": "UT5","GMTYear": "2015","GMTMonth": "May","GMTDay": "7","GMTTime": "14:29:00"}
+}
+, {
+"type": "Feature",
+"id": 26,
+"geometry": {
+"type": "Point",
+"coordinates": [-167.155833333,54.1736666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD068","StationNameID": "UT3","GMTYear": "2015","GMTMonth": "May","GMTDay": "7","GMTTime": "19:25:00"}
+}
+, {
+"type": "Feature",
+"id": 27,
+"geometry": {
+"type": "Point",
+"coordinates": [-167.282166667,54.3175]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD069","StationNameID": "UT2","GMTYear": "2015","GMTMonth": "May","GMTDay": "7","GMTTime": "23:07:00"}
+}
+, {
+"type": "Feature",
+"id": 28,
+"geometry": {
+"type": "Point",
+"coordinates": [-167.382,54.448]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD070","StationNameID": "UT1","GMTYear": "2015","GMTMonth": "May","GMTDay": "8","GMTTime": "0:53:00"}
+}
+, {
+"type": "Feature",
+"id": 29,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.5985,54.5606666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD071","StationNameID": "AE5","GMTYear": "2015","GMTMonth": "May","GMTDay": "8","GMTTime": "6:23:00"}
+}
+, {
+"type": "Feature",
+"id": 30,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.495,54.4568333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD072","StationNameID": "AE4","GMTYear": "2015","GMTMonth": "May","GMTDay": "8","GMTTime": "8:46:00"}
+}
+, {
+"type": "Feature",
+"id": 31,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.352833333,54.3036666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD073","StationNameID": "AE3","GMTYear": "2015","GMTMonth": "May","GMTDay": "8","GMTTime": "10:39:00"}
+}
+, {
+"type": "Feature",
+"id": 32,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.267333333,54.2316666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD074","StationNameID": "AE2","GMTYear": "2015","GMTMonth": "May","GMTDay": "8","GMTTime": "13:15:00"}
+}
+, {
+"type": "Feature",
+"id": 33,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.2325,54.1686666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD075","StationNameID": "AE1","GMTYear": "2015","GMTMonth": "May","GMTDay": "8","GMTTime": "14:16:00"}
+}
+, {
+"type": "Feature",
+"id": 34,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.621666667,54.0708333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD076","StationNameID": "AW1","GMTYear": "2015","GMTMonth": "May","GMTDay": "8","GMTTime": "16:35:00"}
+}
+, {
+"type": "Feature",
+"id": 35,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.656166667,54.1343333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD077","StationNameID": "AW2","GMTYear": "2015","GMTMonth": "May","GMTDay": "8","GMTTime": "18:14:00"}
+}
+, {
+"type": "Feature",
+"id": 36,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.703,54.2058333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD078","StationNameID": "AW3","GMTYear": "2015","GMTMonth": "May","GMTDay": "8","GMTTime": "20:00:00"}
+}
+, {
+"type": "Feature",
+"id": 37,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.823333333,54.3178333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD079","StationNameID": "AW4","GMTYear": "2015","GMTMonth": "May","GMTDay": "8","GMTTime": "23:07:00"}
+}
+, {
+"type": "Feature",
+"id": 38,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.935666667,54.4618333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD080","StationNameID": "AW5","GMTYear": "2015","GMTMonth": "May","GMTDay": "9","GMTTime": "0:54:00"}
+}
+, {
+"type": "Feature",
+"id": 39,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.237166667,54.6878333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD081","StationNameID": "UBW4","GMTYear": "2015","GMTMonth": "May","GMTDay": "9","GMTTime": "5:29:00"}
+}
+, {
+"type": "Feature",
+"id": 40,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.133,54.5855]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD082","StationNameID": "UBW3","GMTYear": "2015","GMTMonth": "May","GMTDay": "9","GMTTime": "7:44:00"}
+}
+, {
+"type": "Feature",
+"id": 41,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.034833333,54.4771666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD083","StationNameID": "UBW2","GMTYear": "2015","GMTMonth": "May","GMTDay": "9","GMTTime": "9:12:00"}
+}
+, {
+"type": "Feature",
+"id": 42,
+"geometry": {
+"type": "Point",
+"coordinates": [-165.923,54.3605]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD084","StationNameID": "UBW1","GMTYear": "2015","GMTMonth": "May","GMTDay": "9","GMTTime": "11:40:00"}
+}
+, {
+"type": "Feature",
+"id": 43,
+"geometry": {
+"type": "Point",
+"coordinates": [-165.8775,54.3116666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD085","StationNameID": "UBW0","GMTYear": "2015","GMTMonth": "May","GMTDay": "9","GMTTime": "12:39:00"}
+}
+, {
+"type": "Feature",
+"id": 44,
+"geometry": {
+"type": "Point",
+"coordinates": [-161.683833333,55.1873333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD001","StationNameID": "14PA-1A","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "26","GMTTime": "16:24:00"}
+}
+, {
+"type": "Feature",
+"id": 45,
+"geometry": {
+"type": "Point",
+"coordinates": [-165.434833333,54.3438333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD002","StationNameID": "UBS4","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "27","GMTTime": "10:36:00"}
+}
+, {
+"type": "Feature",
+"id": 46,
+"geometry": {
+"type": "Point",
+"coordinates": [-165.278333333,54.3791666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD003","StationNameID": "UBS3","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "27","GMTTime": "11:49:00"}
+}
+, {
+"type": "Feature",
+"id": 47,
+"geometry": {
+"type": "Point",
+"coordinates": [-165.135166667,54.424]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD004","StationNameID": "UBS2","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "27","GMTTime": "13:00:00"}
+}
+, {
+"type": "Feature",
+"id": 48,
+"geometry": {
+"type": "Point",
+"coordinates": [-164.980666667,54.4395]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD005","StationNameID": "UBS1","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "27","GMTTime": "14:01:00"}
+}
+, {
+"type": "Feature",
+"id": 49,
+"geometry": {
+"type": "Point",
+"coordinates": [-164.738166667,54.2993333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD006","StationNameID": "14UP-3A","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "27","GMTTime": "15:33:00"}
+}
+, {
+"type": "Feature",
+"id": 50,
+"geometry": {
+"type": "Point",
+"coordinates": [-164.7825,54.717]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD007","StationNameID": "UBE3","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "27","GMTTime": "20:34:00"}
+}
+, {
+"type": "Feature",
+"id": 51,
+"geometry": {
+"type": "Point",
+"coordinates": [-164.8895,54.8273333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD008","StationNameID": "UBE2","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "27","GMTTime": "21:48:00"}
+}
+, {
+"type": "Feature",
+"id": 52,
+"geometry": {
+"type": "Point",
+"coordinates": [-164.992833333,54.937]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD009","StationNameID": "UBE1","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "27","GMTTime": "22:45:00"}
+}
+, {
+"type": "Feature",
+"id": 53,
+"geometry": {
+"type": "Point",
+"coordinates": [-165.111666667,55.0465]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD010","StationNameID": "UBN6","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "28","GMTTime": "0:30:00"}
+}
+, {
+"type": "Feature",
+"id": 54,
+"geometry": {
+"type": "Point",
+"coordinates": [-165.284333333,54.986]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD011","StationNameID": "UBN5","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "28","GMTTime": "1:47:00"}
+}
+, {
+"type": "Feature",
+"id": 55,
+"geometry": {
+"type": "Point",
+"coordinates": [-165.483333333,54.9306666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD012","StationNameID": "UBN4","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "28","GMTTime": "2:48:00"}
+}
+, {
+"type": "Feature",
+"id": 56,
+"geometry": {
+"type": "Point",
+"coordinates": [-165.666666667,54.8653333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD013","StationNameID": "UBN3","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "28","GMTTime": "4:06:00"}
+}
+, {
+"type": "Feature",
+"id": 57,
+"geometry": {
+"type": "Point",
+"coordinates": [-165.861666667,54.8118333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD014","StationNameID": "UBN2","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "28","GMTTime": "5:05:00"}
+}
+, {
+"type": "Feature",
+"id": 58,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.056333333,54.7535]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD015","StationNameID": "UBN1","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "28","GMTTime": "6:29:00"}
+}
+, {
+"type": "Feature",
+"id": 59,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.239833333,54.6863333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD016","StationNameID": "UBW4","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "28","GMTTime": "8:03:00"}
+}
+, {
+"type": "Feature",
+"id": 60,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.122833333,54.5813333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD017","StationNameID": "UBW3","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "28","GMTTime": "10:03:00"}
+}
+, {
+"type": "Feature",
+"id": 61,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.038,54.4741666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD018","StationNameID": "UBW2","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "28","GMTTime": "11:27:00"}
+}
+, {
+"type": "Feature",
+"id": 62,
+"geometry": {
+"type": "Point",
+"coordinates": [-165.9335,54.3615]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD019","StationNameID": "UBW1","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "28","GMTTime": "14:32:00"}
+}
+, {
+"type": "Feature",
+"id": 63,
+"geometry": {
+"type": "Point",
+"coordinates": [-167.062333333,54.0595]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD020","StationNameID": "14ULP-1A","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "29","GMTTime": "15:16:00"}
+}
+, {
+"type": "Feature",
+"id": 64,
+"geometry": {
+"type": "Point",
+"coordinates": [-164.069,56.8678333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD021","StationNameID": "M2","GMTYear": "2015","GMTMonth": "Apr","GMTDay": "30","GMTTime": "22:18:00"}
+}
+, {
+"type": "Feature",
+"id": 65,
+"geometry": {
+"type": "Point",
+"coordinates": [-164.045333333,56.8646666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD022","StationNameID": "70M2/M2","GMTYear": "2015","GMTMonth": "May","GMTDay": "1","GMTTime": "6:57:00"}
+}
+, {
+"type": "Feature",
+"id": 66,
+"geometry": {
+"type": "Point",
+"coordinates": [-164.333833333,56.7643333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD023","StationNameID": "M2W","GMTYear": "2015","GMTMonth": "May","GMTDay": "1","GMTTime": "8:28:00"}
+}
+, {
+"type": "Feature",
+"id": 67,
+"geometry": {
+"type": "Point",
+"coordinates": [-164.2205,57.019]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD024","StationNameID": "M2N","GMTYear": "2015","GMTMonth": "May","GMTDay": "1","GMTTime": "10:23:00"}
+}
+, {
+"type": "Feature",
+"id": 68,
+"geometry": {
+"type": "Point",
+"coordinates": [-163.832666667,56.9451666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD025","StationNameID": "M2E","GMTYear": "2015","GMTMonth": "May","GMTDay": "1","GMTTime": "12:01:00"}
+}
+, {
+"type": "Feature",
+"id": 69,
+"geometry": {
+"type": "Point",
+"coordinates": [-163.8635,56.6721666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD026","StationNameID": "M2S","GMTYear": "2015","GMTMonth": "May","GMTDay": "1","GMTTime": "13:53:00"}
+}
+, {
+"type": "Feature",
+"id": 70,
+"geometry": {
+"type": "Point",
+"coordinates": [-164.054,56.867]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD027","StationNameID": "M2","GMTYear": "2015","GMTMonth": "May","GMTDay": "2","GMTTime": "5:05:00"}
+}
+, {
+"type": "Feature",
+"id": 71,
+"geometry": {
+"type": "Point",
+"coordinates": [-164.578333333,56.8086666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD028","StationNameID": "70M3","GMTYear": "2015","GMTMonth": "May","GMTDay": "2","GMTTime": "7:05:00"}
+}
+, {
+"type": "Feature",
+"id": 72,
+"geometry": {
+"type": "Point",
+"coordinates": [-164.826,56.9095]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD029","StationNameID": "70M4","GMTYear": "2015","GMTMonth": "May","GMTDay": "2","GMTTime": "8:23:00"}
+}
+, {
+"type": "Feature",
+"id": 73,
+"geometry": {
+"type": "Point",
+"coordinates": [-165.1215,56.8596666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD030","StationNameID": "70M5","GMTYear": "2015","GMTMonth": "May","GMTDay": "2","GMTTime": "9:44:00"}
+}
+, {
+"type": "Feature",
+"id": 74,
+"geometry": {
+"type": "Point",
+"coordinates": [-165.373666667,56.9928333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD031","StationNameID": "70M6","GMTYear": "2015","GMTMonth": "May","GMTDay": "2","GMTTime": "11:03:00"}
+}
+, {
+"type": "Feature",
+"id": 75,
+"geometry": {
+"type": "Point",
+"coordinates": [-165.615,57.107]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD032","StationNameID": "70M7","GMTYear": "2015","GMTMonth": "May","GMTDay": "2","GMTTime": "12:22:00"}
+}
+, {
+"type": "Feature",
+"id": 76,
+"geometry": {
+"type": "Point",
+"coordinates": [-165.7465,57.2626666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD033","StationNameID": "70M8","GMTYear": "2015","GMTMonth": "May","GMTDay": "2","GMTTime": "13:32:00"}
+}
+, {
+"type": "Feature",
+"id": 77,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.009666667,57.3216666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD034","StationNameID": "70M9","GMTYear": "2015","GMTMonth": "May","GMTDay": "2","GMTTime": "14:49:00"}
+}
+, {
+"type": "Feature",
+"id": 78,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.328166667,57.3211666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD035","StationNameID": "70M10","GMTYear": "2015","GMTMonth": "May","GMTDay": "2","GMTTime": "16:04:00"}
+}
+, {
+"type": "Feature",
+"id": 79,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.514833333,57.4333333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD036","StationNameID": "70M11","GMTYear": "2015","GMTMonth": "May","GMTDay": "2","GMTTime": "17:25:00"}
+}
+, {
+"type": "Feature",
+"id": 80,
+"geometry": {
+"type": "Point",
+"coordinates": [-166.811666667,57.429]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD037","StationNameID": "70M12","GMTYear": "2015","GMTMonth": "May","GMTDay": "2","GMTTime": "18:35:00"}
+}
+, {
+"type": "Feature",
+"id": 81,
+"geometry": {
+"type": "Point",
+"coordinates": [-167.036,57.5201666667]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD038","StationNameID": "70M13","GMTYear": "2015","GMTMonth": "May","GMTDay": "2","GMTTime": "19:54:00"}
+}
+, {
+"type": "Feature",
+"id": 82,
+"geometry": {
+"type": "Point",
+"coordinates": [-167.346333333,57.4988333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD039","StationNameID": "70M14","GMTYear": "2015","GMTMonth": "May","GMTDay": "2","GMTTime": "21:07:00"}
+}
+, {
+"type": "Feature",
+"id": 83,
+"geometry": {
+"type": "Point",
+"coordinates": [-167.665333333,57.5008333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD040","StationNameID": "70M15","GMTYear": "2015","GMTMonth": "May","GMTDay": "2","GMTTime": "22:28:00"}
+}
+, {
+"type": "Feature",
+"id": 84,
+"geometry": {
+"type": "Point",
+"coordinates": [-167.987166667,57.5008333333]},
+"properties": {
+"Project": "","ConsecutiveCastNo": "CTD041","StationNameID": "70M16","GMTYear": "2015","GMTMonth": "May","GMTDay": "2","GMTTime": "23:39:00"}
+}
+]
+}
