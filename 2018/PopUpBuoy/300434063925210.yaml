@@ -1,6 +1,6 @@
 ---
 UnitID: 300434063925210
-Unit_Start_Time: '2018-9-27 00:00:00'
+Unit_Start_Time: '2018-9-22 08:00:00'
 Unit_Release_Time: '2019-3-1 00:00:00' 
 ############################################################
 ### The following constants are instrument specific
@@ -9,20 +9,22 @@ sample_interval:
   ice:  3600
   sst:  10800
 
+### SST
 underside_temp_cal: 
-  Acoef: 0.00121376381803238
-  Bcoef: 0.000522637158831552
-  Ccoef: 1.41820495016536E-06 
+  Acoef: 1.21562E-03
+  Bcoef: 5.22393E-04
+  Ccoef: 1.41501E-06
 
+### Seawater Temp
 topside_temp_cal: 
-  Acoef: 0.00121410745269167
-  Bcoef: 0.000522254475008962
-  Ccoef: 1.43969129191958E-06
+  Acoef: 1.23198E-03
+  Bcoef: 5.16452E-04
+  Ccoef: 1.53301E-06 
 
 par_cal: 
-  offset:  5458
-  slope:  0.01415
+  offset:  0
+  slope:  0.01414
 
 fluor_cal: 
-  offset:  40
-  slope:  0.020920502
+  offset:  0
+  slope:  0
