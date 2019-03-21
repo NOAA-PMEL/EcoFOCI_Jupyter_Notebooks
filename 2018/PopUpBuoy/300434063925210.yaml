@@ -7,12 +7,17 @@ Unit_Deploy_Time: '2018-10-10 02:26:00'
 Deploy_LatN: 59.89135
 Deploy_LonW: 171.2518166667
 Deploy_Depth: 71
+
 ############################################################
 ### The following constants are instrument specific
+
+# sample interval for sst is 3hours but when calculating from short
+# timestamp, it will use 1hour (pop-time)+samplenum*1hr
+#  *(this is true of ice and bottom too but the samplewrite and sampletake intervals are both 1hr)
 sample_interval: 
   bottom: 3600
   ice:  3600
-  sst:  10800
+  sst:  3600
 
 ### SST
 underside_temp_cal: 
