@@ -78,14 +78,23 @@ class erddap_glider(object):
         return(fig,ax)
     
     def plot_waterfall(self, dfg, var=None,varstr='',delta=1):
+        
+
         fig, ax = plt.subplots(figsize=(8, 12))
         shift = 0
+        count = 0
         for g in dfg.groups:
+            color = cmocean.cm.phase(np.linspace(0.1,0.9,len(dfg.groups))) # This returns RGBA; convert:
             df = dfg.get_group(g)
-            cs = ax.plot(df[var]+shift, df['ctd_depth (meters)'])
+            if (count%5==0):
+                cs = ax.plot(df[var]+shift, df['ctd_depth (meters)'], color=color[count],label=g)
+            else:
+                cs = ax.plot(df[var]+shift, df['ctd_depth (meters)'], color=color[count],label='')
+
             shift=shift+delta
+            count+=1
 
-
+        ax.legend()
         ax.invert_yaxis()
         ax.set_ylabel('Depth (m)')
         ax.set_xlabel(varstr)
