@@ -6,12 +6,15 @@ import pandas as pd
 import numpy as np
 import datetime
 
+import cartopy.crs as ccrs
+import cartopy.feature as cfeature
+from cartopy.mpl.ticker import LongitudeFormatter, LatitudeFormatter
+
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import cmocean
 
 from requests.exceptions import HTTPError
-
 
 class erddap_glider(object):
     
@@ -60,6 +63,7 @@ class erddap_glider(object):
         return(self.dfs)
     
     def plot_timeseries(self, df, var=None,varstr='',cmap=cmocean.cm.thermal,vmin=None,vmax=None):
+        """ timeseries plots"""
         fig, ax = plt.subplots(figsize=(17, 2))
         if vmin:
             cs = ax.scatter(df.index, df['ctd_depth (meters)'], s=15, c=df[var], marker='o', edgecolor='none',cmap=cmap,vmin=vmin,vmax=vmax)
@@ -78,8 +82,7 @@ class erddap_glider(object):
         return(fig,ax)
     
     def plot_waterfall(self, dfg, var=None,varstr='',delta=1):
-        
-
+        """waterfall plots"""
         fig, ax = plt.subplots(figsize=(8, 12))
         shift = 0
         count = 0
@@ -100,3 +103,36 @@ class erddap_glider(object):
         ax.set_xlabel(varstr)
 
         return(fig,ax)
+    
+    def plot_bottomtemp(self, df, extent=[-180, -155, 55, 66]):
+        
+     
+        projection=ccrs.LambertConformal(central_longitude=-160.0)
+        transformation=ccrs.PlateCarree()
+
+        land_50m = cfeature.NaturalEarthFeature('physical', 'land', '50m',
+                                                edgecolor='face',
+                                                facecolor='1.0')
+
+        fig,ax = make_map(projection=projection)
+
+        c = ax.scatter(df['longitude (degrees_east)'], df['latitude (degrees_north)'], s=1,
+                                   c=df['temperature (degrees_Celsius)'], cmap=cmocean.cm.thermal,vmin=-2,
+                                   transform=transformation)
+        plt.colorbar(c)
+        ax.add_feature(land_50m)
+        ax.coastlines(resolution='50m')
+        ax.set_extent(extent)
+        
+        return(fig,ax)
+
+
+def make_map(projection=ccrs.PlateCarree()):
+    fig, ax = plt.subplots(figsize=(8,8),
+                           subplot_kw=dict(projection=projection))
+    if projection == ccrs.PlateCarree():
+        gl = ax.gridlines(draw_labels=True)
+        gl.xlabels_top = gl.ylabels_right = False
+        gl.xformatter = LONGITUDE_FORMATTER
+        gl.yformatter = LATITUDE_FORMATTER
+    return fig, ax
