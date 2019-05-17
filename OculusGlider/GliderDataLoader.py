@@ -78,6 +78,8 @@ class erddap_glider(object):
         cbar = fig.colorbar(cs, orientation='vertical', extend='both')
         cbar.ax.set_ylabel(varstr)
         ax.set_ylabel('Depth (m)')
+        ax.set_yticks(range(0,int(df['ctd_depth (meters)'].max())+10,10), minor=True)
+
         
         return(fig,ax)
     
