@@ -2,7 +2,8 @@
 UnitID: 300434063823800
 PopUP_SN: 102
 Unit_Start_Time: '2018-8-7 00:00:00'
-Unit_Release_Time: '2019-4-30 23:00:00' 
+#seems theres a 9hr offset? UTC vs local
+Unit_Release_Time: '2019-4-30 15:00:00'
 Unit_Deploy_Time: '2018-8-12 03:55:00'
 Deploy_LatN: 59.89135
 Deploy_LonW: 171.2518166667
