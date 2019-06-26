@@ -27,7 +27,7 @@ topside_temp_cal:
   Ccoef: 1.24713E-06
   
 par_cal: 
-  offset:  0
+  offset:  5462
   slope:  0.01415
 
 fluor_cal: 
