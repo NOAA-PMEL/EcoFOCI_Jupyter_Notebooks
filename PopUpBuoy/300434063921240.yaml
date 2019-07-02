@@ -30,7 +30,7 @@ topside_temp_cal:
 par_cal: 
   offset:  5462
   slope:  0.01343
-
+#fluor offset is ADC in DI water
 fluor_cal: 
   offset:  4
   slope:  0.01925854598
