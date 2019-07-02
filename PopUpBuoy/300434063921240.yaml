@@ -1,0 +1,36 @@
+---
+UnitID: 300434063921240
+PopUP_SN: 101
+Unit_Start_Time: '2018-8-7 08:00:00'
+#seems theres a 9hr offset? UTC vs local
+#this file is with times all in UTC
+Unit_Release_Time: '2019-4-30 23:00:00'
+Unit_Deploy_Time: '2018-8-14 06:38:00'
+Deploy_LatN: 71.222833
+Deploy_LonW: 164.2613
+Deploy_Depth: 44.2
+
+############################################################
+### The following constants are instrument specific
+sample_interval: 
+  bottom: 3600
+  ice:  3600
+  sst:  3600
+
+underside_temp_cal: 
+  Acoef: 1.1954720E-03
+  Bcoef: 5.2877341E-04
+  Ccoef: 1.3222558E-06
+
+topside_temp_cal: 
+  Acoef: 1.2711155E-03
+  Bcoef: 5.419057E-04
+  Ccoef: 1.1402101E-06
+  
+par_cal: 
+  offset:  5462
+  slope:  0.01343
+
+fluor_cal: 
+  offset:  4
+  slope:  0.01925854598
