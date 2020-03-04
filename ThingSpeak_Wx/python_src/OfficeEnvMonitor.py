@@ -19,7 +19,7 @@ today = datetime.datetime.utcnow().strftime('%Y-%m-%dT00:00:00Z')
 yesterday = (datetime.datetime.utcnow()-datetime.timedelta(days=1)).strftime('%Y-%m-%dT00:00:00Z')
 
 server_url = 'http://downdraft.pmel.noaa.gov:8080/erddap'
-request_url = '/tabledap/OfficeRedboard_WxStation.jsonlKVP?time%2Ctemperature%2CRH_Percent%2CSLP%2CAltitude%2CUVA%2CUVB%2CUVindex&time%3E=2020-02-26T00%3A00%3A00Z&time%3C=2020-03-04T14%3A57%3A07Z&orderByMax(%22time%22)'
+request_url = '/tabledap/OfficeRedboard_WxStation.jsonlKVP?time%2Ctemperature%2CRH_Percent%2CSLP%2CAltitude%2CUVA%2CUVB%2CUVindex&time%3E=2020-02-26T00%3A00%3A00Z&orderByMax(%22time%22)'
 
 jsonout = json.loads(urllib.request.urlopen(server_url+request_url).read())
 
