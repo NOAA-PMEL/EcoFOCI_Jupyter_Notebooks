@@ -9,3 +9,4 @@
 *.nc
 *.jpg
 *.pyc
+*checkpoint.py
