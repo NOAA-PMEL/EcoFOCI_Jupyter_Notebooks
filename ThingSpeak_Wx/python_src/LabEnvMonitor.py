@@ -54,7 +54,7 @@ try:
             )
 
     df.sort_index(inplace=True)
-    df.columns = [x[1].split()[0] for x in enumerate(df_m.columns)]
+    df.columns = [x[1].split()[0] for x in enumerate(df.columns)]
     df_mean=df.mean()
 
     #temperature
