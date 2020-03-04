@@ -1,0 +1,19 @@
+{
+"time": "2020-03-03T16:24:21Z",
+"Temp_AQ": 23.45,
+"RH_AQ": 32.9,
+"BP_AQ": 102357,
+"TempB": 20.18,
+"RHB": 35.1,
+"BPB": 102248,
+"Co2_Conc": 409,
+"VOC": 1,
+"datetime": 1583281461.0,
+"messages": "no data in 3hr window to calculate trends",
+"days": 3,
+"tempAlert": "alert alert-warning",
+"pressAlert": "alert alert-warning",
+"moistAlert": "alert alert-warning",
+"eCO2Alert": "alert alert-warning",
+"VOCAlert": "alert alert-warning"
+}
