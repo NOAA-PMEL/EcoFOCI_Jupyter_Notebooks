@@ -60,10 +60,8 @@ try:
     #temperature
     if (jsonout['temperature'] < (df.mean()['temperature']-df.std()['temperature']) ):
             jsonout.update({"tempAlert": "alert alert-info"})
-            print("h")
     elif (jsonout['temperature'] > (df.mean()['temperature']+df.std()['temperature']) ):
             jsonout.update({"tempAlert": "alert alert-danger"})
-            print("h")
 
     #moisture
     if (jsonout['RH_Percent'] < (df.mean()['RH_Percent']-df.std()['RH_Percent']) ):
