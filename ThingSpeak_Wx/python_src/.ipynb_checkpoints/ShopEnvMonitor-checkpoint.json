@@ -1,0 +1,14 @@
+{
+"time": "2020-03-11T17:58:36Z",
+"entry_id": 115246,
+"temperature": null,
+"RH_Percent": null,
+"Barotemperature": 9,
+"SLP": 1013.02,
+"datetime": 1583974716.0,
+"messages": "no data in 3hr window to calculate trends",
+"days": 11,
+"tempAlert": "alert alert-warning",
+"pressAlert": "alert alert-warning",
+"moistAlert": "alert alert-warning"
+}
