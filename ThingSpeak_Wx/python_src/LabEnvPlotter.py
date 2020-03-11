@@ -129,7 +129,7 @@ for numdays in dayperiod:
 
     dfsub = df[str((datetime.datetime.utcnow()-datetime.timedelta(days=numdays)).date()):str(datetime.datetime.utcnow().date())]
     
-    fig, (ax3, ax2, ax1) = plt.subplots(3,1,sharex='col',figsize=(24,6))
+    fig, (ax4, ax3, ax2, ax1) = plt.subplots(4,1,sharex='col',figsize=(24,6))
     ax1.plot(dfsub.index.values,dfsub['RH_AQ'],'g')
     ax1.plot(dfsub.index.values,dfsub['RHB'],'g',alpha=.9)
     ax1.fill_between(dfsub.index.values,dfsub['RH_AQ']-station_accuracy[stations[2]]['RH'],
@@ -148,12 +148,21 @@ for numdays in dayperiod:
                      dfsub['BP_AQ']+station_accuracy[stations[2]]['Baro'],
                      color='grey',alpha=.25)
     ax3.set_ylabel('SLP (Pa)')
-
+    ax4.plot(dfsub.index.values,dfsub['Co2_Conc'],'k',alpha=.9)
+    ax4.fill_between(dfsub.index.values,dfsub['Co2_Conc'],
+                     color='grey',alpha=.25)
+    ax4.set_ylabel('eCO2 Conc (ppm)')
+    ax5 = ax4.twinx()
+    ax5.plot(dfsub.index.values,dfsub['VOC'],'k--',alpha=.9)
+    ax5.fill_between(dfsub.index.values,dfsub['Co2_Conc'],
+                     color='grey',alpha=.25)
+    ax5.set_ylabel('VOC Conc (ppb)')
 
     xfmt = mdates.DateFormatter('%d-%b')
     ax1.xaxis.set_major_formatter(xfmt)
     ax2.xaxis.set_major_formatter(xfmt)
     ax3.xaxis.set_major_formatter(xfmt)
+    ax4.xaxis.set_major_formatter(xfmt)
     ax1.xaxis.set_major_locator(DayLocator(bymonthday=[1,15]))
     if numdays <=90:
         ax1.xaxis.set_minor_locator(DayLocator(range(0,32,1)))
