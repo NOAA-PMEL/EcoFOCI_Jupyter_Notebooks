@@ -58,8 +58,9 @@ d = ERDDAP(server=server_url,
 )
 d.dataset_id=stations[1]
 
-d.constraints={'time>=': datetime.datetime.now()-datetime.timedelta(days=180)}
-
+d.constraints={'time>=': datetime.datetime.now()-datetime.timedelta(days=180),
+               'time<=': datetime.datetime.now()
+              }
 df = d.to_pandas(
 
         index_col='time (UTC)',
