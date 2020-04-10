@@ -119,6 +119,11 @@ for numdays in dayperiod:
     ax1.xaxis.set_major_formatter(xfmt)
     ax2.xaxis.set_major_formatter(xfmt)
     ax3.xaxis.set_major_formatter(xfmt)
+
+    ax1.set_xlim(dfsub.index.min(),dfsub.index.max())
+    ax2.set_xlim(dfsub.index.min(),dfsub.index.max())
+    ax3.set_xlim(dfsub.index.min(),dfsub.index.max())    
+    
     ax1.xaxis.set_major_locator(DayLocator(bymonthday=[1,15]))
     if numdays <=90:
         ax1.xaxis.set_minor_locator(DayLocator(range(0,32,1)))
@@ -157,6 +162,11 @@ for numdays in dayperiod:
     ax2.xaxis.set_major_formatter(xfmt)
     ax3.xaxis.set_major_formatter(xfmt)
     ax1.xaxis.set_major_locator(DayLocator(bymonthday=[1,15]))
+    
+    ax1.set_xlim(dfsub.index.min(),dfsub.index.max())
+    ax2.set_xlim(dfsub.index.min(),dfsub.index.max())
+    ax3.set_xlim(dfsub.index.min(),dfsub.index.max())
+    
     if numdays <=90:
         ax1.xaxis.set_minor_locator(DayLocator(range(0,32,1)))
     ax1.xaxis.set_minor_formatter(DateFormatter('%d'))

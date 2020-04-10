@@ -117,12 +117,17 @@ for numdays in dayperiod:
     ax2.xaxis.set_major_formatter(xfmt)
     ax3.xaxis.set_major_formatter(xfmt)
     ax1.xaxis.set_major_locator(DayLocator(bymonthday=[1,15]))
+    
+    ax1.set_xlim(dfsub.index.min(),dfsub.index.max())
+    ax2.set_xlim(dfsub.index.min(),dfsub.index.max())
+    ax3.set_xlim(dfsub.index.min(),dfsub.index.max())
+    
     if numdays <=90:
         ax1.xaxis.set_minor_locator(DayLocator(range(0,32,1)))
     ax1.xaxis.set_minor_formatter(DateFormatter('%d'))
     ax1.xaxis.set_major_formatter(DateFormatter('%d\n%b %y'))
     ax1.xaxis.set_tick_params(which='major', pad=3)
-    ax1.xaxis.set_tick_params(which='minor', pad=5)    
+    ax1.xaxis.set_tick_params(which='minor', pad=5)     
 
     fig.savefig(f'office_horizonplot_{numdays}.png',dpi=300)
 
@@ -164,8 +169,12 @@ for numdays in dayperiod:
     ax1.xaxis.set_major_formatter(xfmt)
     ax2.xaxis.set_major_formatter(xfmt)
     ax3.xaxis.set_major_formatter(xfmt)
-    ax4.xaxis.set_major_formatter(xfmt)
     ax1.xaxis.set_major_locator(DayLocator(bymonthday=[1,15]))
+    
+    ax1.set_xlim(dfsub.index.min(),dfsub.index.max())
+    ax2.set_xlim(dfsub.index.min(),dfsub.index.max())
+    ax3.set_xlim(dfsub.index.min(),dfsub.index.max())
+    
     if numdays <=90:
         ax1.xaxis.set_minor_locator(DayLocator(range(0,32,1)))
     ax1.xaxis.set_minor_formatter(DateFormatter('%d'))
