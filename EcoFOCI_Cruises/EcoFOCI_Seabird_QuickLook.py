@@ -129,6 +129,62 @@ class CTDProfilePlot(object):
 
         return plt, fig
 
+    def plot2var_2y(self, epic_key=None, xdata=None, ydata=None, xlabel=None, secondary=False, **kwargs):
+        fig, ax1 = plt.subplots(figsize=(5.5, 4.25))
+        p1 = ax1.plot(xdata[0], ydata[0])
+        plt.setp(p1, color=self.var2format(epic_key[0])['color'],
+                   linestyle=self.var2format(epic_key[0])['linestyle'],
+                   linewidth=self.var2format(epic_key[0])['linewidth'])
+        if secondary and not (xdata[1].size == 0):
+            p1 = ax1.plot(xdata[1],ydata[0])
+            plt.setp(p1, color=self.var2format(epic_key[1])['color'],
+                         linestyle=self.var2format(epic_key[1])['linestyle'],
+                         linewidth=self.var2format(epic_key[1])['linewidth'])
+            #set plot limits for two vars by finding the absolute range and adding 10%
+            abmin=np.min([np.nanmin(xdata[0]),np.nanmin(xdata[1])])
+            abmax=np.max([np.nanmax(xdata[0]),np.nanmax(xdata[1])])
+            ax1.set_xlim([abmin - 0.1*(abmax-abmin),abmax + 0.1*(abmax-abmin)])
+
+        ax1.invert_yaxis()
+        plt.ylabel('Depth (dB)', fontsize=self.labelsize, fontweight='bold')
+        plt.xlabel(xlabel[0], fontsize=self.labelsize, fontweight='bold')
+
+        fmt=mpl.ticker.StrMethodFormatter(self.var2format(epic_key[0])['format'])
+        ax1.xaxis.set_major_formatter(fmt)
+        ax1.tick_params(axis='both', which='major', labelsize=self.labelsize)
+
+        #plot second param
+        ax2 = ax1.twiny()
+        p1 = ax2.plot(xdata[2], ydata[1])
+        plt.setp(p1, color=self.var2format(epic_key[2])['color'],
+                   linestyle=self.var2format(epic_key[2])['linestyle'],
+                   linewidth=self.var2format(epic_key[2])['linewidth'])
+        if secondary and not (xdata[3].size == 0):
+            p1 = ax2.plot(xdata[3],ydata[1])
+            plt.setp(p1, color=self.var2format(epic_key[3])['color'],
+                         linestyle=self.var2format(epic_key[3])['linestyle'],
+                         linewidth=self.var2format(epic_key[3])['linewidth'])
+            #set plot limits for two vars by finding the absolute range and adding 10%
+            abmin=np.min([np.nanmin(xdata[0]),np.nanmin(xdata[1])])
+            abmax=np.max([np.nanmax(xdata[0]),np.nanmax(xdata[1])])
+            try:
+                ax2.set_xlim([abmin - 0.1*(abmax-abmin),abmax + 0.1*(abmax-abmin)])
+            except:
+                ax2.set_xlim([0,1])
+
+        plt.ylabel('Depth (dB)', fontsize=self.labelsize, fontweight='bold')
+        plt.xlabel(xlabel[1], fontsize=self.labelsize, fontweight='bold')
+
+        #set xticks and labels to be at the same spot for all three vars
+        ax1.set_xticks(np.linspace(ax1.get_xbound()[0], ax1.get_xbound()[1], self.max_xticks))
+        ax2.set_xticks(np.linspace(ax2.get_xbound()[0], ax2.get_xbound()[1], self.max_xticks))
+
+        fmt=mpl.ticker.StrMethodFormatter(self.var2format(epic_key[2])['format'])
+        ax2.xaxis.set_major_formatter(fmt)
+        ax2.tick_params(axis='x', which='major', labelsize=self.labelsize)
+
+
+        return plt, fig    
     @staticmethod
     def var2format(epic_key):
       """list of plot specifics based on variable name"""
