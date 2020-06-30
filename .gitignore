@@ -10,3 +10,4 @@
 *.jpg
 *.pyc
 *checkpoint.py
+.vscode/settings.json
