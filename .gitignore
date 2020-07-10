@@ -11,3 +11,4 @@
 *.pyc
 *checkpoint.py
 .vscode/settings.json
+*.xlsx
