@@ -1,0 +1,11 @@
+time (UTC),max_temperature,min_temperature,mean_temperature,station_id
+2020-08-01 00:00:00-07:00,24.6,22.4,23.3,channel_843357_thingspeak
+2020-08-02 00:00:00-07:00,25.1,21.9,23.4,channel_843357_thingspeak
+2020-08-03 00:00:00-07:00,25.8,23.4,24.7,channel_843357_thingspeak
+2020-08-04 00:00:00-07:00,26.3,23.1,24.7,channel_843357_thingspeak
+2020-08-05 00:00:00-07:00,25.2,22.9,24.3,channel_843357_thingspeak
+2020-08-06 00:00:00-07:00,24.8,22.3,23.2,channel_843357_thingspeak
+2020-08-07 00:00:00-07:00,23.0,20.9,22.2,channel_843357_thingspeak
+2020-08-08 00:00:00-07:00,22.9,21.4,22.2,channel_843357_thingspeak
+2020-08-09 00:00:00-07:00,23.3,20.4,21.8,channel_843357_thingspeak
+2020-08-10 00:00:00-07:00,22.8,21.4,22.5,channel_843357_thingspeak
