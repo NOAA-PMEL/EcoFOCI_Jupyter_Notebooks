@@ -1,2 +1,0 @@
-time (UTC),max_temperature,min_temperature,mean_temperature,mean_dewpoint,mean SLP,total_solar_radiation,max_uv_index,average speed,average dir,max gust,station_id
-2020-09-01 00:00:00-07:00,23.2,13.2,15.4,12.6,1021.6,123427.0,5.4,0.4,52,5.4,tempest

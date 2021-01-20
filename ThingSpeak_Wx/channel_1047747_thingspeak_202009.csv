@@ -1,3 +1,0 @@
-time (UTC),max_temperature,min_temperature,mean_temperature,mean_humidity,station_id
-2020-09-01 00:00:00-07:00,19.2,18.3,18.8,73.1,channel_1047747_thingspeak
-2020-09-02 00:00:00-07:00,19.1,18.4,18.7,73.3,channel_1047747_thingspeak
