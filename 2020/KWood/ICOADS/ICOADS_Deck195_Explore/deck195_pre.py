@@ -22,6 +22,8 @@ import param
 #from cartopy import crs
 import datetime
 
+hv.output(widget_location='bottom')
+
 df = pd.read_csv('~/in_and_outbox/2020/wood/IMMA_1940s/datasets_IMMA_ICOADS_ncei_1940s_e044_89bd_5d26.csv',
                  header=0,skiprows=[1],parse_dates=True,dtype={'ID':str})
 
