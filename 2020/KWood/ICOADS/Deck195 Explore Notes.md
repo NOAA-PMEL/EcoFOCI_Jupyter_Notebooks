@@ -52,3 +52,24 @@ Second, plot the IDs for the example ships (Col G) by year so we can see where t
 Once we can figure out the prefix (class), then we can then look for an example for which we have a logbook image and can use to confirm. 
 
 Also, check out https://oldweather.wordpress.com/2020/12/16/a-new-old-weather-project/
+
+## Class IDs from investigation
+
+Prefix | ClassID | Name
+01 | BB | Battleship
+02 | CA | Heavy Cruiser
+06 | CL | Light Cruiser
+07 | CV | Aircraft Carrier
+10 | CVE | Escort Carrier
+12 | DD | Destroyer
+14 | DE | Dest. Escort
+15 | SS | Submarine
+22 | AM | Minesweeper
+32 | PG | patrol gunboat
+41 | AD | Destroyer Tender
+43 | AF | reefer ship
+51 | AK | cargo ship
+59 | AO | fleet oiler
+61 | AP | troopship
+89 | AVP | Seaplane Tender
+94 | AS | Submarine Tender
