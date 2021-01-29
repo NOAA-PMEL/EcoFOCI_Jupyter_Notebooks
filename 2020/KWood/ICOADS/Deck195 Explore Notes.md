@@ -73,3 +73,8 @@ Prefix | ClassID | Name
 61 | AP | troopship
 89 | AVP | Seaplane Tender
 94 | AS | Submarine Tender
+
+# Experiment 3 - Battle of Okinawa
+One of the largest Armada's in modern history.
+
+Identify the ships
