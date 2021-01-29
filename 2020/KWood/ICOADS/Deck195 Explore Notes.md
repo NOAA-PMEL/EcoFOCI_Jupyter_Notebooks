@@ -55,6 +55,8 @@ Also, check out https://oldweather.wordpress.com/2020/12/16/a-new-old-weather-pr
 
 ## Class IDs from investigation
 
+List of all ID's https://www.ibiblio.org/hyperwar/OnlineLibrary/photos/shusn-no/usnsh-no.htm
+
 Prefix | ClassID | Name
 01 | BB | Battleship
 02 | CA | Heavy Cruiser
@@ -75,6 +77,33 @@ Prefix | ClassID | Name
 94 | AS | Submarine Tender
 
 # Experiment 3 - Battle of Okinawa
+
+Here's another bit of history that may pertinent. It looks like entire Pacific Fleet was massed for the invasion of Okinawa - more than 582 ships are included in the naval order of battle. March-June 1945. It would be interesting to see a map plot of the months March to August of all Deck 195 obs. This might tell us more about the abrupt drop in these months. 
+
+**Wikipedia entry**
+
+For the April 1945 invasion of Okinawa, the Allies assembled the most powerful naval force in history. Since the few remaining capital ships of the Imperial Japanese Combined Fleet had been sunk or otherwise put out of action at the Battle of Leyte Gulf, the Allies were effectively unopposed in terms of surface vessels; a single mission consisting of the superbattleship Yamato and a few escorts was undertaken, but the task force did not get within 200 nautical miles (370 km; 230 mi) of the invasion area.
+
+Since the Japanese air arm had been equally decimated by this point in the war, the lack of trained and experienced pilots led them to deploy the kamikaze extensively in the waters off Okinawa.
+
+ US Navy combat ships:
+11 fleet carriers, 6 light carriers, 22 escort carriers, 8 fast battleships, 10 old battleships, 2 large cruisers, 12 heavy cruisers, 13 light cruisers, 4 anti-aircraft light cruisers, 132 destroyers, 45 destroyer escorts
+
+ Amphibious assault vessels:
+84 attack transports, 29 attack cargo ships, LCIs, LSMs, LSTs, LSVs, etc.
+
+ Auxiliaries:
+52 submarine chasers, 23 fast minesweepers, 69 minesweepers, 11 minelayers, 49 oilers, etc.
+
+ Royal Navy combat ships:
+5 fleet carriers, 2 battleships, 7 light cruisers, 14 destroyers
+
 One of the largest Armada's in modern history.
 
 Identify the ships
+
+BB-46 (Maryland), BB-40 (New Mexico), BB-33 (Arkansas) (4/6/1945)
+
+## Identifying Vessels
+
+the Navy maintains the Dictionary of American Naval Fighting Ship (DANFS - https://www.history.navy.mil/content/history/nhhc/research/histories/ship-histories/danfs.html) that is mirrored on Wikipedia. There are also lists available from the Navy of ships by ship type and hull number. The Navy histories of each ship are generally detailed enough that I can figure out if I have the correct first guess. If I get several predictions right, I call it known. We have some logbooks we can cross-ref as needed. The problem is I have to first guess the hull type (DD, AK, APA...) of which there are hundreds. What I've seen so far appears to be a hierarchy starting with combatant ships in the low numbers, battleships being 01, and support ships (A-types, etc) are higher. 
