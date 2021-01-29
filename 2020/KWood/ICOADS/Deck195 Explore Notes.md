@@ -70,7 +70,9 @@ Prefix | ClassID | Name
 32 | PG | patrol gunboat
 41 | AD | Destroyer Tender
 43 | AF | reefer ship
+46 | AG | Miscellaneous Auxiliaries | *
 51 | AK | cargo ship
+52 | AKA | Attack Cargo Ships
 59 | AO | fleet oiler
 61 | AP | troopship
 89 | AVP | Seaplane Tender
