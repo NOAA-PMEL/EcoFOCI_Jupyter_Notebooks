@@ -66,28 +66,27 @@ Prefix | ClassID | Name
 12 | DD | Destroyer
 14 | DE | Dest. Escort
 15 | SS | Submarine
+21 | DMS | Destroyer Minesweeper
 22 | AM | Minesweeper
 32 | PG | patrol gunboat
 33 | AV | seaplane tender
 37 | PY | Patrol Yacht (wx station)
+39 | AVD | Seaplane Tender Destroyer
 41 | AD | Destroyer Tender
 43 | AF | reefer ship
 46 | AG | Miscellaneous Auxiliaries | *
 51 | AK | cargo ship
 52 | AKA | Attack Cargo Ships
 59 | AO | fleet oiler
+60 | AOG | gasoline tanker
 61 | AP | troopship
+65 | APD | fast transport destroyer
 86 | ARL | Landing craft repair ship
 89 | AVP | Seaplane Tender
 94 | AS | Submarine Tender
 96 | ATF | fleet ocean tugboat
 97 | AT | fleet tugboat
 
-33 = AV (seaplane tender)
-37 = PY (patrol yacht) - also weather station
-86 = ARL (landing craft repair ship)
-96 = ATF (fleet ocean tugboat)
-97 = AT (fleet tugboat) - also weather station
 
 # Experiment 3 - Battle of Okinawa
 
