@@ -66,8 +66,10 @@ Prefix | ClassID | Name
 12 | DD | Destroyer
 14 | DE | Dest. Escort
 15 | SS | Submarine
+20 | DM | 
 21 | DMS | Destroyer Minesweeper
 22 | AM | Minesweeper
+31 | PF | patrol frigates (weather station ships)
 32 | PG | patrol gunboat
 33 | AV | seaplane tender
 37 | PY | Patrol Yacht (wx station)
@@ -77,10 +79,13 @@ Prefix | ClassID | Name
 46 | AG | Miscellaneous Auxiliaries | *
 51 | AK | cargo ship
 52 | AKA | Attack Cargo Ships
+58 | AN | Netlayer / Tender
 59 | AO | fleet oiler
 60 | AOG | gasoline tanker
 61 | AP | troopship
+62 | APA | Attack troopship
 65 | APD | fast transport destroyer
+81 | AM | Minesweeper
 86 | ARL | Landing craft repair ship
 89 | AVP | Seaplane Tender
 94 | AS | Submarine Tender
