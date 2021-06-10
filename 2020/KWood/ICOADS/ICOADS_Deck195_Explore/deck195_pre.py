@@ -7,7 +7,8 @@ import geoviews.feature as gf
 import holoviews as hv
 from bokeh.models import HoverTool
 # Adds %%opts line magic for bokeh plot config
-hv.extension('bokeh')
+#hv.extension('bokeh')
+gv.extension('bokeh')
 import hvplot.pandas
 from holoviews import streams
 from holoviews import opts
@@ -21,6 +22,7 @@ import param
 #import cartopy
 #from cartopy import crs
 import datetime
+from datashader.utils import lnglat_to_meters
 
 hv.output(widget_location='bottom')
 
@@ -47,3 +49,5 @@ for key in allkeys:
         except:
             pass
 subgroup = pd.concat([grouped.get_group(name) for name in groups])
+
+subgroup.loc[:,'x'],subgroup.loc[:,'y'] = lnglat_to_meters(subgroup.longitude,subgroup.latitude)
