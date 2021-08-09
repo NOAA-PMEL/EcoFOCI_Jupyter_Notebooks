@@ -18,7 +18,7 @@ from requests.exceptions import HTTPError
 
 class erddap_glider(object):
     
-    def __init__(self, glider_id='sg401', server_url = 'http://downdraft.pmel.noaa.gov:8080/erddap'):
+    def __init__(self, glider_id='sg401', server_url = 'http://akutan.pmel.noaa.gov:8080/erddap'):
         self.glider_id = glider_id
         self.server_url = server_url
     
@@ -54,21 +54,22 @@ class erddap_glider(object):
                 except HTTPError:
                     print('Failed to generate url {}'.format(row['Dataset ID']))
                     continue
-                self.dfs.update({row['Dataset ID']: e.to_pandas(
-                                        index_col='time (UTC)',
-                                        parse_dates=True,
-                                        skiprows=(1,)  # units information can be dropped.
-                                        )})  
+                df_e = e.to_pandas(index_col='time (UTC)',
+                                   parse_dates=True,
+                                   skiprows=(1,)  # units information can be dropped.
+                                   )
+                df_e = df_e.loc[df_e.index.notnull()] #cleanup NaT
+                self.dfs.update({row['Dataset ID']: df_e})  
                 
         return(self.dfs)
     
-    def plot_timeseries(self, df, var=None,varstr='',cmap=cmocean.cm.thermal,vmin=None,vmax=None):
+    def plot_timeseries(self, df, var=None, yaxisvar='ctd_depth (meters)', varstr='',cmap=cmocean.cm.thermal,vmin=None,vmax=None):
         """ timeseries plots"""
         fig, ax = plt.subplots(figsize=(17, 2))
         if vmin:
-            cs = ax.scatter(df.index, df['ctd_depth (meters)'], s=15, c=df[var], marker='o', edgecolor='none',cmap=cmap,vmin=vmin,vmax=vmax)
+            cs = ax.scatter(df.index, df[yaxisvar], s=15, c=df[var], marker='o', edgecolor='none',cmap=cmap,vmin=vmin,vmax=vmax)
         else:
-            cs = ax.scatter(df.index, df['ctd_depth (meters)'], s=15, c=df[var], marker='o', edgecolor='none',cmap=cmap)
+            cs = ax.scatter(df.index, df[yaxisvar], s=15, c=df[var], marker='o', edgecolor='none',cmap=cmap)
 
         ax.invert_yaxis()
         ax.set_xlim(df.index[0], df.index[-1])
@@ -78,12 +79,12 @@ class erddap_glider(object):
         cbar = fig.colorbar(cs, orientation='vertical', extend='both')
         cbar.ax.set_ylabel(varstr)
         ax.set_ylabel('Depth (m)')
-        ax.set_yticks(range(0,int(df['ctd_depth (meters)'].max())+10,10), minor=True)
+        ax.set_yticks(range(0,int(df[yaxisvar].max())+10,10), minor=True)
 
         
         return(fig,ax)
     
-    def plot_waterfall(self, dfg, var=None,varstr='',delta=1):
+    def plot_waterfall(self, dfg, var=None, yaxisvar='ctd_depth (meters)',varstr='',delta=1):
         """waterfall plots"""
         fig, ax = plt.subplots(figsize=(8, 12))
         shift = 0
@@ -92,9 +93,9 @@ class erddap_glider(object):
             color = cmocean.cm.phase(np.linspace(0.1,0.9,len(dfg.groups))) # This returns RGBA; convert:
             df = dfg.get_group(g)
             if (count%5==0):
-                cs = ax.plot(df[var]+shift, df['ctd_depth (meters)'], color=color[count],label=g)
+                cs = ax.plot(df[var]+shift, df[yaxisvar], color=color[count],label=g)
             else:
-                cs = ax.plot(df[var]+shift, df['ctd_depth (meters)'], color=color[count],label='')
+                cs = ax.plot(df[var]+shift, df[yaxisvar], color=color[count],label='')
 
             shift=shift+delta
             count+=1
