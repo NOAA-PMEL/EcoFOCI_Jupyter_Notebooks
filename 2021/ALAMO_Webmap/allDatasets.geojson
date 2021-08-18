@@ -1,0 +1,4 @@
+Error {
+    code=400;
+    message="Bad Request: Query error: 'orderByMin' variable=time isn't in the dataset.";
+}
