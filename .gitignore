@@ -14,3 +14,5 @@
 *.xlsx
 *checkpoint.csv
 **/**/.ipynb_checkpoints/*
+*.csv
+2020/KWood/ICOADS/Deck117_Parse/fosdic_cd117
