@@ -1,0 +1,30 @@
+---
+# from provided test file
+#prawler
+erddap_globalattributes:
+    title: CTD Data from Profiler Mooring XX_ID During the SWOT Post-Launch Cal/Val Campaign'
+    summary: To calibrate and validate the SWOT satellite data, a mooring array was deployed that makes observations with CTD (conductivity, temperature, depth) instruments. This file contains CTD data from one of these moorings.
+    source: In-situ observations from mooring
+    creator_name: Shaun Bell
+    date_created: strdate_yyyy-mm-dd #<-- edit
+    history: '' #<--- edit/append
+    contributor_name: Scott Stalin; Shaun Bell
+    contributor_role: lead project engineer; data specialist
+    infoUrl: https://www.pmel.noaa.gov/edd/
+    institution: NOAA/PMEL - EDD
+    featureType: trajectory #gps is timeseries, met is timeseries
+    Conventions: CF-1.9, ACDD-1.3 
+    standard_name_vocabulary: CF Standard Name Table v79
+    standard_name_dictionary_date: 19 March 2022
+    geospatial_lat_min: 'replace'
+    geospatial_lat_max: 'replace'
+    geospatial_lat_units: 'degree_north'
+    geospatial_lon_min: 'replace'
+    geospatial_lon_max: 'replace'
+    geospatial_lon_units: 'degree_east'
+    geospatial_vertical_min: 'replace'
+    geospatial_vertical_max: 'replace'
+    geospatial_vertical_positive: 'down'
+    geospatial_vertical_units: 'dbar'
+    time_coverage_start: 'yyyymmddTHHMMSSZ'
+    time_coverage_end: 'yyyymmddTHHMMSSZ'

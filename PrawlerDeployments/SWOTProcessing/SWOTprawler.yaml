@@ -1,0 +1,85 @@
+---
+#############################################################
+# Utility to read the following in takes order into account
+#  Dimensions should stay in same order with cf_role id being last
+# 
+# CF Standard Names v66
+#
+# PRAWLER WITH ONLY CTD
+# ----
+#
+# Related Datasets:
+#  GPS
+#  MetData
+#  LoadCell
+#
+TIME:
+  name: time
+  standard_name: time
+  long_name: days since 20000101T000000Z 
+  axis: T
+  # calendar: gregorian
+LATITUDE:
+  name: latitude_deployment
+  units: degrees_north
+  long_name: 'latitude of mooring deployment'
+  standard_name: 'latitude'
+  comment: This is the nominal latitude of the mooring site. Actual GPS fixes of the buoy positions, which vary with time, are provided in separate variables.
+  axis: Y
+LONGITUDE:
+  name: longitude_deployment
+  units: degrees_east
+  long_name: 'longitude of mooring deployment'
+  standard_name: 'longitude'
+  comment: This is the nominal longitude of the mooring site. Actual GPS fixes of the buoy positions, which vary with time, are provided in separate variables.
+  axis: X
+TIME_SURFACE_BUOY:
+  name: time_of_gps_data
+  standard_name: time
+  long_name: days since 20000101T000000Z
+  axis: T
+  # calendar: gregorian
+LATITUDE_SURFACE_BUOY:
+  name: latitude
+  units: degrees_north
+  long_name: 'latitude of mooring from GPS'
+  standard_name: latitude
+  comment: These are GPS fixes of the buoy positions, which vary with time. The nominal site position is provided in separate variables.
+  axis: Y
+LONGITUDE_SURFACE_BUOY:
+  name: longitude
+  units: degrees_east
+  long_name: 'longitude of mooring from GPS'
+  standard_name: longitude
+  comment: These are GPS fixes of the buoy positions, which vary with time. The nominal site position is provided in separate variables.
+  axis: X
+#variables
+TEMP: #CT
+  generic_name: temp
+  comment: 'Sea water temperature in-situ ITS-90 scale'
+  standard_name: sea_water_temperature
+  units: degree_Celsius
+  ancillary_variables: INSTR_INFO
+PRES: #CD
+  positive: down
+  axis: Z
+  generic_name: pres
+  units: decibar
+  comment: 'Sea water pressure, equals 0 at sea-level: These are pressure measurements made from the profiling instrument, which also serve as the vertical geospatial coordinate. No quality control was done on these values.'
+  standard_name: sea_water_pressure_due_to_sea_water
+  ancillary_variables: INSTR_INFO
+CNDC: #CC * 10 to get desired units
+  generic_name: cond
+  comment: 'Sea water conductivity'
+  standard_name: sea_water_electrical_conductivity
+  units: mS cm-1
+  ancillary_variables: INSTR_INFO
+INSTR_INFO:
+    ancillary_variables: INSTR_MAKE, INSTR_MODEL, INSTR_SN
+    comment: This is a dummy container variable to point to the other INSTR_... variables. These other variables provide metadata about the instrumentation on the mooring.
+INSTR_MAKE:
+    long_name: Instrument manufacturer
+INSTR_MODEL:
+    long_name: Instrument model
+INSTR_SN:
+    long_name: Instrument serial number
